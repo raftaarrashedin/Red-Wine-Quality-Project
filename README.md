@@ -27,4 +27,16 @@ git add .
 
 git commit -m "first commit in this project"
 
+onliner updates for readme file
+
+git add . && git commit -m "update readme.md"
+
+git remote add origin https://github.com/raftaarrashedin/Red-Wine-Quality-Project.git
+
+git branch -M main
+
+git push -u origin main
+
+doskey /history
+
 
