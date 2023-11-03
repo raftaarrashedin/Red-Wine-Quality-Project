@@ -48,3 +48,11 @@ git branch -M main
 git push -u origin main
 ```
 
+second day
+``` bash
+type nul > src/get_data.py
+pip install pandas
+python src/get_data.py
+doskey/history
+```
+
