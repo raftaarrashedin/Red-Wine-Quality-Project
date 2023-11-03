@@ -56,3 +56,9 @@ python src/get_data.py
 doskey/history
 ```
 
+Completed stage 1
+``` bash
+dvc repro
+git add . && git commit -m "stage 1 completed"
+git push origin main
+```
