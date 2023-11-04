@@ -53,7 +53,7 @@ def train_and_evaluate(config_path):
     print("  RMSE: %s" % rmse)
     print("  MAE: %s" % mae)
     print("  R2: %s" % r2)
-
+#--------------------------------------------------------
     scores_file = config["reports"]["scores"]
     params_file = config["reports"]["params"]
 
@@ -76,6 +76,7 @@ def train_and_evaluate(config_path):
     model_path = os.path.join(model_dir, "model.joblib")
 
     joblib.dump(lr, model_path)
+#---------------------------------------------------
 
 def eval_metrics(actual, pred):
     mse = mean_squared_error(actual, pred)
