@@ -1,7 +1,7 @@
 base :
   project : Red-Wine-Quality-Project
   random_state : 42
-  target_col : TARGET
+  target_col : quality
 
 data_source :
   s3_source : data_given/winequality-red.csv
@@ -19,3 +19,12 @@ estimators :
     params :
       alpha : 0.88
       l1_ratio : 0.89
+
+model_dir: saved_models
+
+reports:
+  params: report/params.json
+  scores: report/scores.json
+
+webapp_model_dir: prediction_service/model/model.joblib
+# ------------------------------------------------
