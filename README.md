@@ -69,10 +69,22 @@ Tracker Added
 
 Pytest and tox installed
 
+tox command
 ```bash
 tox
 ```
-
+for rebuilding
+```bash
+tox -r
+```
+pytest command 
+```bash
+pytest -v
+```
+setup commands 
+```bash
+pip install -e .
+```
 Setup done
 ```bash
 python setup.py sdist bdist_wheel
