@@ -6,8 +6,6 @@ class NotInRange(Exception) :
 		super().__init__(self.message)
 
 
-# 8080142595
-def test_generic() :
 	a = 5
 	with pytest.raises(NotInRange) :
 		if a not in range(10,20) :
