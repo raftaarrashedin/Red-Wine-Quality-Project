@@ -62,3 +62,19 @@ dvc repro
 git add . && git commit -m "stage 1 completed"
 git push origin main
 ```
+
+Splitted the dataset
+
+Tracker Added
+
+Pytest and tox installed
+
+```bash
+tox
+```
+
+Setup done
+```bash
+python setup.py sdist bdist_wheel
+tox
+```
