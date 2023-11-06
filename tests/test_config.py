@@ -6,7 +6,7 @@ class NotInRange(Exception) :
 		super().__init__(self.message)
 
 
-8080142595
+# 8080142595
 def test_generic() :
 	a = 5
 	with pytest.raises(NotInRange) :
@@ -14,3 +14,10 @@ def test_generic() :
 			raise NotInRange
 	# b = 2
 	# assert a == b
+
+
+
+def test_something() :
+	a = 2
+	b = 2
+	assert True
